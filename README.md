@@ -9,3 +9,9 @@ Part 2 we need to still find the location of the numbers but we then need to sea
 
 # Day 2
 TEXTSPLIT, TEXTAFTER, and TEXTBEFORE to the rescue. Some clever error checking with IFNA allows to correct for cases where the found text is in a weird spot. Only dragged formula was the initial split since for some reason trying to BYROW it wouldn't fill to the right. In my input there was no more than 6 pulls from the bag so thats as wide as the formula gets. Part 1 ANDs the checks then finds the game id from the first split. This could be optimized a bit but overall much cleaner than day 1.
+
+# Day 3
+Recursion. The enemy of Excel and spreadsheets. Part 1 wasn't too difficult but getting the pairs for part 2 has eluded me at this point. I've paired the data down but just need to match them up correctly. I have some ideas but not the time to implement
+
+# Day 4
+SEQUENCE go brrrrrrr. Unpack the cards, XMATCH and SUM to get the hits per card. MAP down the array with Power subtracting 1 for the first card. Sum this all together and Part 1 down. Part 2 required a bit more thinking to find the correct offset variables for walking across the cards but once solved fill down the array and sum it up and add the number of cards in the original set. My input was 220 so I hard coded it.
