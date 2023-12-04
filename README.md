@@ -1,5 +1,6 @@
 # aoc-excel-2023
-Advent of Code 2023 with only Excel
+Advent of Code 2023 with only Excel.
+
 Excel is a still programming language. This repo archives my attempt to do all of the Advent of Code 2023 entirely in Excel without the use of VBA.
 
 # Day 1
