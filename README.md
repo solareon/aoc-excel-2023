@@ -16,3 +16,9 @@ Recursion. The enemy of Excel and spreadsheets. Part 1 wasn't too difficult but 
 
 # Day 4
 SEQUENCE go brrrrrrr. Unpack the cards, XMATCH and SUM to get the hits per card. MAP down the array with Power subtracting 1 for the first card. Sum this all together and Part 1 down. Part 2 required a bit more thinking to find the correct offset variables for walking across the cards but once solved fill down the array and sum it up and add the number of cards in the original set. My input was 220 so I hard coded it.
+
+# Day 5
+Words critically hit you for over 9000. Got too busy to tinker with this one
+
+# Day 6
+Big numbers you say? Part 1 solution was simple and elegant. Part 2 required some outside of the box thinking to break it into 8 smaller problems that are within Excel's calculation limits. Sure it isn't golfed but is beautiful in it's own way.
